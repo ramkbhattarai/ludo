@@ -1,5 +1,5 @@
 #board{
-    display: flex;
+    /* display: flex; */
     border: 1px black;
 }
 #firstContainer{
@@ -10,14 +10,67 @@
 #red{
     display: flex;
     border: 1px black;
+    background-color: red;
 }
 
 #redGreenTrack{
     display: flex;
     border: 1px black;
+    /* background-color: green; */
 }
 
 #trackMiddle{
     display: flex;
     border: 1px black;
+}
+
+#Green{
+    display: flex;
+    border: 1px black;
+    background-color: green;
+}
+
+#secondContainer{
+    display: flex;
+    border: 1px black;
+}
+
+#redBlueTrack{
+    display: flex;
+    border: 1px black;
+}
+
+#middlebox{
+    display: flex;
+    border: 1px black;
+}
+
+
+#GreenYellowTrack{
+    display: flex;
+    border: 1px black;
+}
+
+
+#thirdContainer{
+    display: flex;
+    border: 1px black;
+}
+
+
+#Blue{
+    display: flex;
+    border: 1px black;
+    background-color: blue;
+}
+
+#blueYellowTrack{
+    display: flex;
+    border: 1px black;
+}
+
+#Yellow{
+    display: flex;
+    border: 1px black;
+    background-color: yellow;
 }
