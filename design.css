@@ -1,0 +1,23 @@
+#board{
+    display: flex;
+    border: 1px black;
+}
+#firstContainer{
+    display: flex;
+    border: 1px black;
+}
+
+#red{
+    display: flex;
+    border: 1px black;
+}
+
+#redGreenTrack{
+    display: flex;
+    border: 1px black;
+}
+
+#trackMiddle{
+    display: flex;
+    border: 1px black;
+}
