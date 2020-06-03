@@ -39,7 +39,7 @@ height: 50%;
 
 
 #Green{
-    display: flex;
+    display: block;
     border: 1px solid black;
     background-color: green;
     width: 32%;
