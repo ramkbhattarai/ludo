@@ -1,76 +1,74 @@
 #board{
     /* display: flex; */
-    border: 1px black;
+    border: 1px solid black;
 }
 #firstContainer{
     display: flex;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 #red{
-    display: flex;
-    border: 1px black;
+    display:block;
+    border: 1px solid black;
     background-color: red;
+    width: 32%;
+}
+.top{
+    display: flex;
+    /* width: 100%; */
+    height: 50%;
+}
+.bottom{
+display: flex;
+/* width: 100%; */
+height: 50%;
+}
+.smallCircles{
+    width: 50%;
+    border-radius: 100%;
+    background-color: aliceblue;
 }
 
 #redGreenTrack{
-    display: flex;
-    border: 1px black;
-    /* background-color: green; */
+    display:flexbox;
+    border: 1px solid black;
+    /* background-color: red; */
+    width: 32%;
 }
 
-#trackMiddle{
-    display: flex;
-    border: 1px black;
-}
+
 
 #Green{
     display: flex;
-    border: 1px black;
+    border: 1px solid black;
     background-color: green;
+    width: 32%;
 }
 
 #secondContainer{
     display: flex;
-    border: 1px black;
-}
-
-#redBlueTrack{
-    display: flex;
-    border: 1px black;
-}
-
-#middlebox{
-    display: flex;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 
-#GreenYellowTrack{
-    display: flex;
-    border: 1px black;
-}
 
 
 #thirdContainer{
     display: flex;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 
 #Blue{
     display: flex;
-    border: 1px black;
+    border: 1px solid black;
     background-color: blue;
 }
 
-#blueYellowTrack{
-    display: flex;
-    border: 1px black;
-}
+
 
 #Yellow{
     display: flex;
-    border: 1px black;
+    border: 1px solid black;
     background-color: yellow;
 }
