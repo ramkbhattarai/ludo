@@ -72,7 +72,8 @@ height: 50%;
 
 
 #Yellow{
-    display: flex;
+    display: block;
     border: 1px solid black;
     background-color: yellow;
+    width:32%;
 }
