@@ -89,6 +89,18 @@ height: 50%;
     /* background-color: red; */
     width: 32%;
 }
+#trackBlue{
+ display: block;
+    width: 30%;
+}
+#trackMiddleBlueYellow{
+ display: block;
+    width: 30%;
+}
+#trackYellow{
+ display: block;
+    width: 30%;
+}
 
 #Yellow{
     display: block;
