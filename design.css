@@ -31,13 +31,27 @@ height: 50%;
 }
 
 #redGreenTrack{
-    display:flexbox;
+    display:flex;
     border: 1px solid black;
     /* background-color: red; */
     width: 32%;
 }
+#trackRed{
+    display: block;
+    width:30%
+}
+#trackMiddleRedGreen{
+    display: block;
+    width: 30%;
+}
+#trackGreen{
+    display: block;
+    width: 30%;
+}
 
-
+.smallBox{
+    height: 35px;
+}
 
 #Green{
     display: block;
