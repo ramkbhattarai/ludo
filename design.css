@@ -71,10 +71,19 @@ height: 50%;
     width:33%
 }
 .rTrack{
-    height: 33px;
+    height: 33%;
+}
+.rbTrack{
+     height: 33%;
+}
+.bTrack{
+     height: 33%;
 }
 .smallTracks{
-    display: inline;
+    display: flex;
+}
+.innerTracks{
+    width: 15%;
 }
 
 #middlebox{
