@@ -52,6 +52,7 @@ height: 50%;
 .smallBox{
     height: 35px;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 #Green{
@@ -86,6 +87,7 @@ height: 50%;
 .innerTracks{
     width: 15%;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 #middlebox{
