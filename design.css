@@ -96,9 +96,32 @@ height: 50%;
 }
 
 #middlebox{
+     display: grid;
     background-color: aqua;
      width:33%
+   
 }
+#firstLayer{
+  
+   display: flex;
+}
+#secondLayer{
+    background-color: beige;
+     display: flex;
+}
+
+#winingColor{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+#diceValue{
+    background-color: aliceblue;
+    height: 100%;
+    width: 33%;
+}
+
+
 #GreenYellowTrack{
     background-color: blueviolet;
      width:33%
