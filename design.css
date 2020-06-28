@@ -121,6 +121,16 @@ height: 50%;
     width: 33%;
 }
 
+#diceValueMain{
+     background-color: aliceblue;
+    
+   background-size: 100% 97%;
+    height: 100%;
+    width: 33%;
+   
+}
+
+
 
 #GreenYellowTrack{
     background-color: blueviolet;
