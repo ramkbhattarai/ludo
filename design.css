@@ -44,6 +44,7 @@ height: 50%;
 #trackMiddleRedGreen{
     display: block;
     width: 30%;
+    background-color: green;
 }
 #trackGreen{
     display: block;
@@ -80,6 +81,11 @@ height: 50%;
 }
 .rbTrack{
      height: 33%;
+     background-color: red;
+}
+.gyTrack{
+     height: 33%;
+     background-color: yellow;
 }
 .bTrack{
      height: 33%;
@@ -111,7 +117,22 @@ height: 50%;
 }
 
 #winingColor{
-    background-color: black;
+    background-color: rgb(6, 22, 240);
+    height: 100%;
+    width: 33%;
+}
+#winingColorYellow{
+    background-color: rgb(220, 241, 28);
+    height: 100%;
+    width: 33%;
+}
+#winingColorGreen{
+    background-color: rgb(3, 148, 52);
+    height: 100%;
+    width: 33%;
+}
+#winingColorRed{
+    background-color: rgb(190, 3, 3);
     height: 100%;
     width: 33%;
 }
@@ -163,6 +184,7 @@ height: 50%;
 #trackMiddleBlueYellow{
  display: block;
     width: 30%;
+    background-color: blue;
 }
 #trackYellow{
  display: block;
