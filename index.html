@@ -1,207 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="design.css">
-   
-    <title>Ludo</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ludo Game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="design.css" />
 </head>
+
 <body>
-    <div id="board">
-        <div id="firstContainer">
-            <div id="red">
-                <div class="top">
+    <div class="board">
 
-                    <div class="smallCircles">r1</div>
-                    <div class="smallCircles">r1</div>
-                </div>
-                <div class="bottom">
-
-                    <div class="smallCircles">r1</div>
-                    <div class="smallCircles">r1</div>
+        <div class="firstContainer">
+            <div class="greenBox green">
+                <div class="greenBox-child white">
+                    <div class="green"></div>
+                    <div class="green"></div>
+                    <div class="green"></div>
+                    <div class="green"></div>
                 </div>
             </div>
-            <div id="redGreenTrack">
-                <div id="trackRed">
-                    <div class="smallBox">1</div>
-                    <div class="smallBox">2</div>
-                    <div class="smallBox">3</div>
-                    <div class="smallBox">4</div>
-                    <div class="smallBox">5</div>
-                    <div class="smallBox">6</div>
-                </div>
-                <div id="trackMiddleRedGreen">
-                    <div class="smallBox">11</div>
-                    <div class="smallBox">22</div>
-                    <div class="smallBox">33</div>
-                    <div class="smallBox">44</div>
-                    <div class="smallBox">55</div>
-                    <div class="smallBox">66</div>
-                </div>
-                <div id="trackGreen">
-                    <div class="smallBox">10</div>
-                    <div class="smallBox">20</div>
-                    <div class="smallBox">30</div>
-                    <div class="smallBox">40</div>
-                    <div class="smallBox">50</div>
-                    <div class="smallBox">60</div>
-                </div>
+            <div class="greenYellowTrack">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div></div>
+                <div class="yellow"></div>
+                <div></div>
+                <div></div>
+                <div class="yellow"></div>
+                <div></div>
+                <div></div>
+                <div class="yellow"></div>
+                <div></div>
+                <div></div>
+                <div class="yellow"></div>
+                <div></div>
             </div>
-            <div id="Green">
-                <div class="top">
-                
-                    <div class="smallCircles">g1</div>
-                    <div class="smallCircles">g1</div>
-                </div>
-                <div class="bottom">
-                
-                    <div class="smallCircles">g1</div>
-                    <div class="smallCircles">g1</div>
+            <div class="yellowBox yellow">
+                <div class="yellowBox-child white">
+                    <div class="yellow"></div>
+                    <div class="yellow"></div>
+                    <div class="yellow"></div>
+                    <div class="yellow"></div>
                 </div>
             </div>
         </div>
-        <div id="secondContainer">
-            <div id="redBlueTrack">
-                <div class="rTrack">
-                    <div class="smallTracks">
-                        <div class="innerTracks">r1</div>
-                        <div class="innerTracks">r2</div>
-                        <div class="innerTracks">r3</div>
-                        <div class="innerTracks">r4</div>
-                        <div class="innerTracks">r5</div>
-                        <div class="innerTracks">r6</div>
-                    </div>
-                </div>
-                <div class="rbTrack">
-                    <div class="smallTracks">
-                        <div class="innerTracks">rb1</div>
-                        <div class="innerTracks">rb2</div>
-                        <div class="innerTracks">rb3</div>
-                        <div class="innerTracks">rb4</div>
-                        <div class="innerTracks">rb5</div>
-                        <div class="innerTracks">rb6</div>
-                    </div>
-                </div>
-                <div class="bTrack">
-                    <div class="smallTracks">
-                        
-                            <div class="innerTracks">b1</div>
-                            <div class="innerTracks">b2</div>
-                            <div class="innerTracks">b3</div>
-                            <div class="innerTracks">b4</div>
-                            <div class="innerTracks">b5</div>
-                            <div class="innerTracks">b6</div>
-                       
-                    </div>
+
+        <!-- Second row -->
+        <div class="secondContainer">
+            <div class="greenRedTrack">
+                <div></div>
+                <div class="green"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="green"></div>
+                <div class="green"></div>
+                <div class="green"></div>
+                <div class="green"></div>
+                <div class="green"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="middleBox">
+                <!-- add triangular effect using html and css -->
+                <div class="triangles">
+                    <div class="triangle-right"></div>
+                    <div class="triangle-up"></div>
+                    <div class="triangle-left"></div>
+                    <div class="triangle-down"></div>
                 </div>
             </div>
-            <div id="middlebox">
-                <div id="firstLayer">
-                    <div id="diceValue"></div>
-                    <div id="winingColorGreen"></div>
-                    <div id="diceValue"></div>
-                </div>
-                <div id="secondLayer">
-                    <div id="winingColorRed"></div>
-                    <div id="diceValueMain"></div>
-                    <div id="winingColorYellow"></div>
-                </div>
-                <div id="firstLayer">
-                    <div id="diceValue"></div>
-                    <div id="winingColor"></div>
-                    <div id="diceValue"></div>
-                </div>
-            </div>
-            <div id="GreenYellowTrack">
-                <div class="rTrack">
-                    <div class="smallTracks">
-                        <div class="innerTracks">g1</div>
-                        <div class="innerTracks">g2</div>
-                        <div class="innerTracks">g3</div>
-                        <div class="innerTracks">g4</div>
-                        <div class="innerTracks">g5</div>
-                        <div class="innerTracks">g6</div>
-                    </div>
-                </div>
-                <div class="gyTrack">
-                    <div class="smallTracks">
-                        <div class="innerTracks">gy1</div>
-                        <div class="innerTracks">gy2</div>
-                        <div class="innerTracks">gy3</div>
-                        <div class="innerTracks">gy4</div>
-                        <div class="innerTracks">gy5</div>
-                        <div class="innerTracks">gy6</div>
-                    </div>
-                </div>
-                <div class="bTrack">
-                    <div class="smallTracks">
-                
-                        <div class="innerTracks">y1</div>
-                        <div class="innerTracks">y2</div>
-                        <div class="innerTracks">y3</div>
-                        <div class="innerTracks">y4</div>
-                        <div class="innerTracks">y5</div>
-                        <div class="innerTracks">y6</div>
-                
-                    </div>
-                </div>
+            <div class="yellowBlueTrack">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="blue"></div>
+                <div></div>
             </div>
         </div>
-        <div id="thirdContainer">
-            <div id="Blue">
-            <div class="top">
-            
-                <div class="smallCircles">b1</div>
-                <div class="smallCircles">b1</div>
-            </div>
-            <div class="bottom">
-            
-                <div class="smallCircles">b1</div>
-                <div class="smallCircles">b1</div>
-            </div>
-            </div>
-            <div id="blueYellowTrack">
-                <div id="trackBlue">
-                    <div class="smallBox">1</div>
-                    <div class="smallBox">2</div>
-                    <div class="smallBox">3</div>
-                    <div class="smallBox">4</div>
-                    <div class="smallBox">5</div>
-                    <div class="smallBox">6</div>
-                </div>
-                <div id="trackMiddleBlueYellow">
-                    <div class="smallBox">11</div>
-                    <div class="smallBox">22</div>
-                    <div class="smallBox">33</div>
-                    <div class="smallBox">44</div>
-                    <div class="smallBox">55</div>
-                    <div class="smallBox">66</div>
-                </div>
-                <div id="trackYellow">
-                    <div class="smallBox">10</div>
-                    <div class="smallBox">20</div>
-                    <div class="smallBox">30</div>
-                    <div class="smallBox">40</div>
-                    <div class="smallBox">50</div>
-                    <div class="smallBox">60</div>
+
+        <div class="thirdContainer">
+            <div class="redBox red">
+                <div class="redBox-child white">
+                    <div class="red"></div>
+                    <div class="red"></div>
+                    <div class="red"></div>
+                    <div class="red"></div>
                 </div>
             </div>
-            <div id="Yellow">
-                <div class="top">
-                
-                    <div class="smallCircles">y1</div>
-                    <div class="smallCircles">y1</div>
-                </div>
-                <div class="bottom">
-                
-                    <div class="smallCircles">y1</div>
-                    <div class="smallCircles">y1</div>
+            <div class="redBlueTrack">
+                <div></div>
+                <div class="red"></div>
+                <div></div>
+                <div></div>
+                <div class="red"></div>
+                <div></div>
+                <div></div>
+                <div class="red"></div>
+                <div></div>
+                <div></div>
+                <div class="red"></div>
+                <div></div>
+                <div class="red"></div>
+                <div class="red"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="blueBox blue">
+                <div class="blueBox-child white">
+                    <div class="blue"></div>
+                    <div class="blue"></div>
+                    <div class="blue"></div>
+                    <div class="blue"></div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="players">.....Player's turn. Please click in the middlebox</div>
+    
     <!-- red pawns  start top 28 left 318-->
     <div class="pawns" id="redpawn1" onclick="randomMove('red',1)" style="background-color:red;top:149px;left:442px;"></div>
     <div class="pawns" id="redpawn2" onclick="randomMove('red',2)" style="background-color:red;top:102px;left:395px;"></div>
@@ -237,7 +179,6 @@
     </div>
     <div class="pawns" id="bluepawn4" onclick="randomMove('blue',4)" style="background-color:blue;top:498px;left:442px;">
     </div>
-   
 </body>
-<script src="./logic.js"></script>
+
 </html>

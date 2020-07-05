@@ -1,199 +1,196 @@
-#board{
-    /* display: flex; */
-    border: 1px solid black;
-}
-#firstContainer{
-    display: flex;
-    border: 1px solid black;
-    height: 200px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#red{
-    display:block;
-    border: 1px solid black;
-    background-color: red;
-    width: 32%;
-}
-.top{
-    display: flex;
-    /* width: 100%; */
-    height: 50%;
-}
-.bottom{
-display: flex;
-/* width: 100%; */
-height: 50%;
-}
-.smallCircles{
-    width: 50%;
-    border-radius: 100%;
-    background-color: aliceblue;
-    text-align: center;
-}
-
-#redGreenTrack{
-    display:flex;
-    border: 1px solid black;
-    /* background-color: red; */
-    width: 32%;
-}
-#trackRed{
-    display: block;
-    width:30%
-}
-#trackMiddleRedGreen{
-    display: block;
-    width: 30%;
-    background-color: rgb(153, 238, 153);
-}
-#trackGreen{
-    display: block;
-    width: 30%;
-}
-
-.smallBox{
-    height: 15%;
-    border: 1px solid black;
-    border-radius: 50%;
-     margin: 2px;
-    text-align: center;
-}
-
-#Green{
-    display: block;
-    border: 1px solid black;
-    background-color: green;
-    width: 32%;
-}
-
-#secondContainer{
-    display: flex;
-    border: 1px solid black;
-    height: 200px;
-}
-#redBlueTrack{
-    display: block;
-    background-color: burlywood;
-    width:33%
-}
-.rTrack{
-    height: 33%;
-}
-.rbTrack{
-     height: 33%;
-     background-color: rgb(230, 146, 146);
-}
-.gyTrack{
-     height: 33%;
-     background-color: rgb(240, 240, 154);
-}
-.bTrack{
-     height: 33%;
-}
-.smallTracks{
-    display: flex;
-}
-.innerTracks{
-    width: 15%;
-    border: 1px solid black;
-    border-radius: 50%;
-    margin: 2px;
-    text-align: center;
-}
-
-#middlebox{
-     display: grid;
-    background-color: aqua;
-     width:33%
-   
-}
-#firstLayer{
-  
-   display: flex;
-}
-#secondLayer{
-    background-color: beige;
-     display: flex;
-}
-
-#winingColor{
-    background-color: rgb(158, 164, 245);
-    height: 100%;
-    width: 33%;
-}
-#winingColorYellow{
-    background-color: rgb(231, 236, 178);
-    height: 100%;
-    width: 33%;
-}
-#winingColorGreen{
-    background-color: rgb(172, 231, 192);
-    height: 100%;
-    width: 33%;
-}
-#winingColorRed{
-    background-color: rgb(236, 157, 157);
-    height: 100%;
-    width: 33%;
-}
-#diceValue{
-    background-color: aliceblue;
-    height: 100%;
-    width: 33%;
-}
-
-#diceValueMain{
-     background-color: aliceblue;
+.board {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    cursor: pointer;
     
-   background-size: 100% 97%;
+}
+
+.firstContainer,
+.thirdContainer {
+    width: 100%;
+    height: 40%;
+}
+
+.secondContainer{
+    width: 100%;
+    height: 20%;
+}
+
+.greenBox,
+.yellowBox,
+.redBox,
+.blueBox {
     height: 100%;
-    width: 33%;
-   
+    width: 40%;
 }
 
-
-
-#GreenYellowTrack{
-    background-color: blueviolet;
-     width:33%
+.greenYellowTrack,
+.redBlueTrack {
+    height: 100%;
+    width: 20%;
 }
-#thirdContainer{
+
+.greenYellowTrack>div:hover,
+.redBlueTrack>div:hover {
+    box-shadow: -2px 14px 28px rgba(0, 0, 0, 0.25), -2px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.greenBox,
+.greenYellowTrack,
+.yellowBox,
+.greenRedTrack,
+.middleBox,
+.yellowBlueTrack,
+.redBox,
+.redBlueTrack,
+.blueBox {
+    float: left;
+}
+
+.greenRedTrack,
+.yellowBlueTrack {
+    width: 40%;
+    height: 100%;
+}
+
+.greenRedTrack>div:hover,
+.yellowBlueTrack>div:hover {
+    box-shadow: -2px 14px 28px rgba(0, 0, 0, 0.25), -2px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.middleBox {
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.greenBox,
+.yellowBox,
+.redBox,
+.blueBox {
     display: flex;
-    border: 1px solid black;
-    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
-
-#Blue{
-    display: block;
-    border: 1px solid black;
-    background-color: blue;
-    width: 32%;
+.greenBox-child,
+.yellowBox-child,
+.redBox-child,
+.blueBox-child {
+    width: 70%;
+    height: 70%;
 }
 
-#blueYellowTrack{
-    display:flex;
-    border: 1px solid black;
-    /* background-color: red; */
-    width: 32%;
-}
-#trackBlue{
- display: block;
-    width: 30%;
-}
-#trackMiddleBlueYellow{
- display: block;
-    width: 30%;
-    background-color: rgb(112, 112, 245);
-}
-#trackYellow{
- display: block;
-    width: 30%;
+.greenBox-child>div,
+.yellowBox-child>div,
+.redBox-child>div,
+.blueBox-child>div {
+    width: 35%;
+    height: 35%;
+    float: left;
+    margin: 7.5%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    
 }
 
-#Yellow{
-    display: block;
-    border: 1px solid black;
-    background-color: yellow;
-    width:32%;
+.greenBox-child>div:hover,
+.yellowBox-child>div:hover,
+.redBox-child>div:hover,
+.blueBox-child>div:hover {
+    box-shadow: -2px 14px 28px rgba(0, 0, 0, 0.25), -2px 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+.greenYellowTrack>div,
+.redBlueTrack>div {
+    width: 33.333%;
+    height: 16.667%;
+    float: left;
+    border: 1px solid black;
+}
+
+.greenRedTrack>div,
+.yellowBlueTrack>div {
+    width: 16.667%;
+    height: 33.333%;
+    float: left;
+    border: 1px solid black;
+}
+
+.green {
+    background-color: #b0e757;
+}
+
+.red {
+    background-color: #eb635a;
+}
+
+.blue {
+    background-color: #76bfe4;
+}
+
+.yellow {
+    background-color: #f0d663;
+}
+
+.white {
+    background-color: #ffffffe1;
+}
+
+.triangles {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-left: 45px solid #84c21f;
+    border-bottom: 45px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 5.2px;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 45px solid #dc2418;
+    position: absolute;
+    bottom: 0;
+    left: 5.2px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-right: 45px solid #0092dc;
+    border-bottom: 45px solid transparent;
+    border-top: 45px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 5.2px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid #f6c700;
+    position: absolute;
+    top: 0;
+    right: 5.2px;
+}
+
