@@ -121,27 +121,51 @@
     width: 16.667%;
     height: 33.333%;
     float: left;
-    border: 1px solid black;
+    border: 1px solid rgb(7, 6, 6);
 }
 
 .green {
-    background-color: #b0e757;
+    background-color: #97db28;
 }
 
 .red {
-    background-color: #eb635a;
+    background-color: #db3327;
 }
 
 .blue {
-    background-color: #76bfe4;
+    background-color: #8ec6e2;
 }
 
 .yellow {
-    background-color: #f0d663;
+    background-color: #f0d76a;
 }
 
 .white {
     background-color: #ffffffe1;
+}
+
+.disc{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.greenish {
+    background-color: #9af803;
+}
+
+.redish {
+    background-color: #fc1404;
+}
+
+.blueish {
+    background-color: #05aafd;
+}
+
+.yellowish {
+    background-color: #facc02;
 }
 
 .triangles {
