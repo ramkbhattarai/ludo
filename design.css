@@ -129,15 +129,15 @@
 }
 
 .red {
-    background-color: #db3327;
+    background-color: #ee8f88;
 }
 
 .blue {
-    background-color: #8ec6e2;
+    background-color: #acd9f0;
 }
 
 .yellow {
-    background-color: #f0d76a;
+    background-color: #f8e695;
 }
 
 .white {
@@ -217,4 +217,16 @@
     top: 0;
     right: 5.2px;
 }
+
+.players{
+
+}
+
+
+    img {
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}
+
 

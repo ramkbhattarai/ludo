@@ -1,8 +1,10 @@
 
-let dice = document.getElementById("diceValueMain");
+let dice = document.getElementById("diceValue");
+console.log(dice);
 dice.addEventListener('click',() => {
     let number =Math.floor( Math.random()* 6 + 1);
-    dice.style.backgroundImage = "url(./images/"+`${number}`+".png)";
+    console.log(number);
+    dice.src = "./images/"+`${number}`+".png";
 
    
 })
