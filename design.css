@@ -219,11 +219,13 @@
 }
 
 .players{
-
+    /* align-items: center; */
+    margin-left: 200px;
 }
 
 
     img {
+        margin-top: 12px;
   width: 10%;
   height: 10%;
   object-fit: cover;
